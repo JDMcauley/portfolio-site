@@ -4,9 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="styles.css">
     <title>JDMcAuley Portfolio</title>
 </head>
 <body class="bg-gray-900 text-white min-h-screen flex flex-col items-center font-mono">
+    <nav class="flex justify-between items-center w-full p-4 bg-gray-700 mb-8">
+        <p class="self-start text-center text-xl">
+            <a href="index.html" class="hover:text-blue-400">
+                JDMcAuley<br/>
+                Dev
+            </a>
+        </p>
+        <div class="grid grid-cols-2 grid-rows-1 md:gap-2 text-xl">
+            <a href="index.html" class="hover:text-blue-400">
+                Home
+            </a>
+            <a href="" class="hover:text-blue-400">
+                Projects
+            </a>
+        </div>
+    </nav>
     <img src="https://i.ibb.co/xqQ0SQjq/mecrop.jpg" alt="mecrop" class="mx-auto rounded-full h-32 w-32 shadow-lg">
     <h1 class="text-4xl mt-6">Jak McAuley</h1>
     <div class="flex space-x-6 mt-4">
@@ -35,14 +52,14 @@
     </div>
     <div class="max-w-xl mx-auto mt-8 text-center">
         <h2 class="text-2xl font-semibold mb-4">About Me</h2>
-        <p class="text-gray-600 dark:text-gray-300 leading-relaxed">
+        <p class="text-gray-600 dark:text-gray-300 leading-relaxed p-4">
             I’m a new web developer with a passion for building clean, responsive websites using JavaScript.
             I focus on making sure every site looks great and works smoothly on all screen sizes —
             from mobile phones to large desktop displays.
         </p>
     </div>
     <h2 class="text-2xl font-semibold mt-4">My Tech Stack:</h2>
-    <div class="grid grid-cols-4 mx-auto mt-8 text-center">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mx-auto mt-8 text-center">
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
             <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"></path><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path>
         </svg>
