@@ -6,4 +6,4 @@ Built with HTML, Tailwind CSS, and JavaScript, it focuses on clean design, respo
 
 The site is a living project where I experiment with layout techniques, interactivity, and front-end best practices.
 
-Available at: jdmcauley.dev
+Available at: [jdmcauley.dev](https://jdmcauley.dev/)
